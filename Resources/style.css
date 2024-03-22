@@ -1,0 +1,101 @@
+* {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 140px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 5px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+
+
+.navbar {
+
+   display: flex;
+    justify-content: right;
+    background-color: black;
+    height: 85px;
+    width: 100%;
+ 
+  }
+  
+  .navbar button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 25%;
+  }
+  h1 {
+    margin-left: 25%;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  h2 {
+    margin-left: 27%;
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-top: 4%;
+  }
+
+  #about  {
+    margin-top: 1rem;
+    margin-left: 100px;
+   
+  }
+
+ 
+
+  #about p {
+    margin-left: 28%;
+    font-size: 1.2rem;
+  }
+  #about img {
+    width: 55%;
+    height: auto;
+    border-radius: 50%;
+    float: right;
+    margin-right: 25%;
+  }
+
+  
+  .sidenav img {
+    height: 50px;
+    margin: 0 auto;
+    padding: 1.5rem;
+   
+   
+  }
+  .column-1 {
+    width: 60%;
+  
+    float: left;
+  }
+  .column-2 {
+    width: 40%;
+  
+    float: right;
+  }
+
+  .portfolio {
+    
+    margin: 2rem auto;
+   
+  }
