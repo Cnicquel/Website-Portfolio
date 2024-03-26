@@ -5,53 +5,160 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./Resources/style.css">
+    <script src="js/gsap.min.js"></script>
+    
+  <script src="https://kit.fontawesome.com/385c14f632.js" crossorigin="anonymous"></script>
 </head>
 <header>
  <div class="navbar">
-
-  <button>Contact</button>
-</div>
+  <div class="rounded">
+  <div class="nav-link">
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+  </div>
+  <div class="logo">
+    <img src="./Resources/Images/VC logo_green.png"/>
+  </div>
+   <div class="btn">
+    <a href="./contact.html"><button>Contact</button></a>
+   </div>
+  </div>
 </header>
 <body>
-    <div class="sidenav">
-        <img src="Resources/Images/logo.png">
-        <a href="#about">About</a>
-        <a href="#portfolio">Portfolio</a>
-        <br>
-        <br>
-        <br>
-        <img src="./Resources/Images/github-mark-white.png" alt="GitHub"/>
-        <img src="./Resources/Images/LI-In-Bug.png" alt="LinkedIn"/>
-      </div>
+ 
+   
     <section id="about">
-        <div class="about">
-            <div class="column-1">
+        
+          
+        <div class="grid-container about">
+            <div id="about-me">
         <h1>About VC WEB</h1>
         <h2>Hi, I'm Véronique Cartier</h2>
-        <br>
-        <p>I am a web developer.</p>
-        <p>I speak fluently French and English.</p>
-        <p>I am a freelancer since 2014.</p>
-        <p>I currently live in Spain.</p>
+        <div id="about-p">
+          <div class="social-widget">
+            <ul class="social-icons">
+              <li class="social-icon">
+                <i class="fa-brands fa-linkedin"></i> 
+              </li>
+              <li class="social-icon">
+                <i class="fa-brands fa-github"></i>
+              </li>
+              <li class="social-icon">
+                <i class="fa-brands fa-codepen"></i>
+              </li>
+             </ul>
+         </div>
+         <div id="me">
+        <p>I am a web developer.<br>
+        I speak fluently French and English.<br>
+        I am a freelancer since 2014.<br>
+        I currently live in Spain.</p>
+         </div>
+        </div>
             </div>
-            <div class="column-2">
+            <div id="profile-img">
                 <img src="./Resources/Images/Profile Picture.jpg"/>
             </div>
+            <div id="circle"></div>
         </div>
     
      </section>
-    <br>
-    <section id="portfolio">
-        <div class="portfolio">
-        <h2>Portfolio</h2>
-        <p>Here are my projects</p>
-        </div>
-        <div id="projects">
-            <figure><img src="" alt=""><figcaption></figcaption></figure>
-            <figure><img src="" alt=""><figcaption></figcaption></figure>
-        </div>
-
+    <section id="skills">
+      <h2>Skills</h2>
+      <hr class="rounded">
+      <div class="app">
+        <div class="tag-list">
+           <div class="loop-slider">
+             
+               <div class="tag t1"><img src="./Resources/Images/logo-skills/HTML5_logo_and_wordmark.svg.png" alt="HTML5"/></div>
+               <div class="tag t2"><img src="./Resources/Images/logo-skills/CSS3_logo_and_wordmark.svg.png" alt="CSS3"/></div>
+               <div class="tag t3"><img src="./Resources/Images/logo-skills/JavaScript-logo.png" alt="JS"/></div>
+               <div class="tag t4"><img src="./Resources/Images/logo-skills/github-mark.png" alt="GitHub"/></div>
+               <div class="tag t5"><img src="./Resources/Images/logo-skills/vscode.png" alt="VSCode"/></div>
+           </div>
+       </div>
+     </div>
+       <hr class="rounded">
     </section>
+<section id="portfolio">
+     <h2>Portfolio</h2>
+      <div id="portfolio-item">
+        <div id="portfolio-text">
+          <h3>Landing Page</h3>
+          <p>Responsive landing page project for Codecademy.</p>
+          <p>HTML, CSS</p>
+          <a href=""><button>See Project</button></a>
+
+        </div>
+        <div id="portfolio-image">
+        <img src="./Resources/Images/Landing page.png" alt="landing page"/>
+        </div>
+      </div>
+      <div id="portfolio-item-2">
+        <div id="portfolio-text">
+          <h3>Style Guide</h3>
+          <p>Website style guide project for Codecademy. </p>
+          <p>HTML, CSS</p>
+          <a href=""><button>See Project</button></a>
+
+        </div>
+        <div id="portfolio-image">
+        <img src="./Resources/Images/Style Guide.png" alt="documentation page"/>
+        </div>
+      </div>
+      <div id="portfolio-item">
+        <div id="portfolio-text">
+          <h3>Survey Form</h3>
+          <p>Responsive survey form project for Freecodecamp.</p>
+          <p>HTML, CSS</p>
+          <a href=""><button>See Project</button></a>
+
+        </div>
+        <div id="portfolio-image">
+        <img src="./Resources/Images/Survey form.png" alt="survey form"/>
+        </div>
+      </div>
+      <div id="portfolio-item-2">
+        <div id="portfolio-text">
+          <h3>Sports club</h3>
+          <p>Responsive sports club page for Codecademy.</p>
+          <p>HTML, CSS</p>
+          <a href=""><button>See Project</button></a>
+
+        </div>
+        <div id="portfolio-image">
+        <img src="./Resources/Images/Sport club.png" alt="sports club"/>
+        </div>
+      </div>
+  
+          
+
+        
+         
+          </section>
+          <section id="contact">
+            <div id="cont">
+            <h2>Contact</h2>
+            <p>You can contact me here:</p>
+            <p class="email">contact@vcweb.com</p>
+            </div>
+           
+          </section>
+        <section id="social">
+          <div class="social">
+          <div><img src="./Resources/Images/Logo_social/github-mark-white.png" alt="GitHub"/></div>
+          <div><img src="./Resources/Images/Logo_social/LI-In-Bug.png" alt="LinkedIn"/></div>
+          <div><img src="./Resources/Images/Logo_social/codepen_logo-white.png" alt="CodePen"/></div>
+          </div>
+        </section>
+       
+        </body>
+        <footer>
+          <div id="footer">
+          <p>© Véronique Cartier 2024</p>
+        </footer>
+        </html>
+        
     
 </body>
 </html>
