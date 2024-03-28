@@ -10,8 +10,5 @@ tl.to(".t4", { rotation: 360 });
 tl.to(".t5", { rotation: 360 });
 
 
-
-
- 
-
 });
+
